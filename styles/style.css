@@ -1,5 +1,5 @@
 p {
 	color: red;
-	height: 14px;
-	padding: 1;
+	width: 500px;
+	border: 1px solid black;
 }
