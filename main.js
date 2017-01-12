@@ -1,4 +1,4 @@
-document.querySelector('img').onclick = function() {
+ function iSaidDontPoke() {
     alert("I told you, Don't poke the fox!");
 }
 
@@ -14,6 +14,7 @@ sayDontpoke()
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
+	iSaidDontPoke();
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'http://www.welivesecurity.com/wp-content/uploads/2014/08/Firefox-logo.png') {
       myImage.setAttribute ('src','https://s-media-cache-ak0.pinimg.com/236x/4a/02/6e/4a026efbde8336cf570632dc2a03b412.jpg');
